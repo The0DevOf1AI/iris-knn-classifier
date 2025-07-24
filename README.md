@@ -9,7 +9,7 @@ Built using **scikit-learn**, this project demonstrates the basics of data loadi
 
 - ✅ Uses scikit-learn's built-in Iris dataset
 - ✅ Implements KNN (k=3) classification
-- ✅ Splits dataset into training and testing sets
+- ✅ Splits the dataset into training and testing sets
 - ✅ Evaluates accuracy
 - ✅ Makes predictions on sample data
 - ✅ Saves and loads model using `joblib`
@@ -125,5 +125,5 @@ Contributions, issues, and feature requests are welcome! Feel free to submit a p
 
 ## 👤 Author
 
-**Your Name**  
+**Hasan Berjawi**  
 [GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
