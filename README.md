@@ -89,7 +89,7 @@ The [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) contains:
 ```
 iris-knn-classifier/
 │
-├── iris_knn_classifier.py     # Main script
+├── iris_knn_classifier.ipynb  # Main script
 ├── mlbrain.joblib             # Saved model (after training)
 └── README.md                  # Project documentation
 ```
@@ -106,7 +106,7 @@ iris-knn-classifier/
 
 2. Run the classifier:
    ```bash
-   python iris_knn_classifier.py
+   jupyter notebook iris_knn_classifier.ipynb
    ```
 
 ---
