@@ -36,3 +36,12 @@ And later loaded for inference:
 from joblib import load
 model = load('mlbrain.joblib')
 model.predict(sample)
+
+## 📚 Dependencies
+scikit-learn
+numpy
+joblib
+
+Install them with:
+
+'''pip install scikit-learn numpy joblib'''
