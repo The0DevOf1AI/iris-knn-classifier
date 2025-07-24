@@ -13,3 +13,26 @@ Evaluates accuracy
 Makes predictions on sample data
 
 Saves and loads model using joblib
+
+## 📊 Example Output
+
+Feature Names: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+Target Names: ['setosa' 'versicolor' 'virginica']
+
+Training Shape: (105, 4)
+Test Shape: (45, 4)
+Accuracy: 0.955
+
+Sample Predictions:
+['virginica', 'versicolor']
+
+## 💾 Save/Load Model
+The trained model can be saved to disk using:
+
+from joblib import dump
+dump(knn, 'mlbrain.joblib')
+And later loaded for inference:
+
+from joblib import load
+model = load('mlbrain.joblib')
+model.predict(sample)
